@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/calculadora.css">
+    <title>Calculadora Joia</title>
+</head>
+<body>
+    
+    <div class="calculadora"> <br>
+     <header> Calculadora </header> <br>
+     <div id="campo">
+     <div id="operaçao"> 
+        <input size="4" type="text" id="n1">
+        <span id="operador">
+            
+        </span>
+        <input size="4" type="text" id="n2">
+       </div>
+
+       <div class="resultado">
+       <br><input size="4" type="text" id="resultado" disabled>
+       </div>
+    </div>
+    <div class="tudo">
+        <div class="primeiralinha"> 
+        <input type="button" value="1" class="botao botaoNumero "  >
+        <input type="button" value="2" class="botao botaoNumero ">
+        <input type="button" value="3" class="botao botaoNumero ">
+        <input type="button" value="4" class="botao botaoNumero ">
+        </div>
+
+    <div class="segundalinha">
+        <input type="button" value="5" class="botao botaoNumero ">
+        <input type="button" value="6" class="botao botaoNumero ">
+        <input type="button" value="7" class="botao botaoNumero ">
+        <input type="button" value="8" class="botao botaoNumero ">
+    </div>
+
+    <div class="terceiralinha">
+        <input type="button" value="9" class="botao botaoNumero ">
+        <input type="button" value="0" class="botao botaoNumero ">
+        <input type="button" value="+" class="botao" id="soma">
+        <input type="button" value="-" class="botao" id="subtracao">
+    </div>
+
+    <div class="quartalinha">
+        <input type="button" value="*" class="botao " id="multiplica">
+        <input type="button" value="/" class="botao" id="divisao">
+        <input type="button" value="=" class="botao" id="igual">
+        <input type="button" value="Del" class="botao " id="apaga">
+    </div>
+</div>
+    </div>
+    <script src="js/calculadora.js"> </script>
+</body>
+</html>
